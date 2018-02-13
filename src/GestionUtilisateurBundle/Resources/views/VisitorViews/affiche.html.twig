@@ -1,0 +1,1578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
+    <meta name="twitter:widgets:theme" content="light">
+    <meta property="og:title" content="Your-Title-Here" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="Your-Image-Url" />
+    <meta property="og:description" content="Your-Page-Description" />
+    <title>Sartre | Multipurpose HTML5 Template - Concepts</title>
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('TemplateSimpleUser/images/theme-mountain-favicon.ico') }}">
+
+
+
+    <style>
+        .mySlides {display:none;}
+        video {
+            width: 50%    !important;
+            height: auto   !important;
+            margin-left : 2cm;
+        }
+    </style>
+
+
+    <!-- Font -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700%7CLato:300,400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="{{ asset('TemplateSimpleUser/css/core.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('TemplateSimpleUser/css/skin.css') }}" />
+
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="{{ asset('http://html5shiv.googlecode.com/svn/trunk/html5.js') }}"></script>
+    <![endif]-->
+
+</head>
+<body class="shop home-page">
+
+<!-- Side Navigation Menu -->
+<aside class="side-navigation-wrapper enter-right" data-no-scrollbar data-animation="push-in" style="opacity:0.5;">
+    <div class="side-navigation-scroll-pane">
+        <div class="side-navigation-inner">
+            <div class="side-navigation-header">
+                <div class="navigation-hide side-nav-hide">
+                    <a href="#">
+                        <span class="icon-cancel medium"></span>
+                    </a>
+                </div>
+            </div>
+            <nav class="side-navigation">
+                <ul>
+                    <li>
+                        <a href="#" class="contains-sub-menu" style="opacity:10;">Demos</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/index-mobile-application.html') }}" class="contains-sub-menu">Mobile Application</a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="{{ asset('TemplateSimpleUser/index-mobile-application.html') }}">Original</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ asset('TemplateSimpleUser/index-mobile-application-2.html') }}">Variation 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ asset('TemplateSimpleUser/index-mobile-application-3.html') }}">Variation 3</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ asset('TemplateSimpleUser/index-mobile-application-one-page.html') }}">One Page</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+
+
+
+
+
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="contains-sub-menu" >Pages</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/about-style-one.html') }}">About Original</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="contains-sub-menu">Blog</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/blog.html') }}">3 Column Grid</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="contains-sub-menu">Shop</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/shop-grid.html') }}">Shop Grid</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/shop-creative.html') }}">Shop Creative</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/shop-sidebar-right.html') }}">Shop Sidebar Right</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/single-product.html') }}">Single Product</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/single-product-with-gallery.html') }}">Product With Gallery</a>
+                            </li>
+                            <li>
+                                <a href="{{ ('TemplateSimpleUser/single-product-with-header.html') }}">Product With Header</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/single-product-with-parallax.html') }}">Product With Parallax</a>
+                            </li>
+                            <li>
+                                <a href="{{ ('TemplateSimpleUser/single-product-on-sale.html') }}">Product On Sale</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/single-product-no-stock.html') }}">Product Out Of Stock</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/cart.html') }}">Cart</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/checkout.html') }}">Checkout</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="contains-sub-menu">Folio</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/portfolio-three-columns.html') }}">3 Column Grid Default</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/portfolio-three-columns-alternative.html') }}">3 Column Grid Alt</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/portfolio-three-columns-full-width.html') }}">3 Column Grid Full Width</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/portfolio-three-columns-full-width-no-margins.html') }}">3 Column Grid Full Width No Margins</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/portfolio-four-columns-full-width-alternative.html') }}">4 Column Grid Full Width Alt</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/portfolio-four-columns-full-width-no-margins.html') }}">4 Column Grid Full Width No Margins</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/portfolio-masonry-grid.html') }}">Full Width Masonry Grid</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/portfolio-masonry-grid-no-margins.html') }}">Full Width Masonry Grid No Margins</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/project-style-one.html') }}">Project Style One</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/project-style-two.html') }}">Project Style Two</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/project-style-three.html') }}">Project Style Three</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/project-style-four.html') }}">Project Style Four</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="contains-sub-menu">Elements</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/elements-accordions.html') }}">Accordions</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/elements-buttons.html') }}">Buttons</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/elements-feature-columns.html') }}">Feature Columns</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/elements-footers.html') }}">Footers</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/elements-forms.html') }}">Forms</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/elements-lightbox.html') }}">Lightbox</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/elements-maps.html') }}">Maps</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/elements-pricing-tables.html') }}">Pricing Tables</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/elements-progress-bars.html') }}">Progress Bars</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/elements-rollovers.html') }}">Rollovers</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/elements-signup-forms.html') }}">Subscribe Forms</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/elements-slider.html') }}">Slider</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/elements-tabs.html') }}">Tabs</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/elements-testimonials.html') }}">Testimonials</a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('TemplateSimpleUser/elements-video.html') }}">Video</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="side-navigation nav-block">
+                <ul>
+                    <li>
+
+                        <ul class="sub-menu custom-content cart-overview">
+                            <li class="cart-item">
+                                <a href="{{ asset('TemplateSimpleUser/single-product.html') }}" class="product-thumbnail">
+                                    <img src="{{ asset('images/shop/cart/cart-thumb-small.jpg') }}" alt="" />
+                                </a>
+                                <div class="product-details">
+                                    <a href="{{ asset('TemplateSimpleUser/single-product.html') }}" class="product-title">
+                                        Cotton Jump Suit
+                                    </a>
+                                    <span class="product-quantity">2 x</span>
+                                    <span class="product-price"><span class="currency">$</span>15.00</span>
+                                    <a href="#" class="product-remove icon-cancel"></a>
+                                </div>
+                            </li>
+                            <li class="cart-item">
+                                <a href="{{ asset('TemplateSimpleUser/single-product.html') }}" class="product-thumbnail">
+                                    <img src="{{ asset('TemplateSimpleUser/images/shop/cart/cart-thumb-small-2.jpg') }}" alt="" />
+                                </a>
+                                <div class="product-details">
+                                    <a href="{{ asset('TemplateSimpleUser/single-product.html') }}" class="product-title">
+                                        Crew Neck U.S Sweater
+                                    </a>
+                                    <span class="product-quantity">2 x</span>
+                                    <span class="product-price"><span class="currency">$</span>45.00</span>
+                                    <a href="#" class="product-remove icon-cancel"></a>
+                                </div>
+                            </li>
+                            <li class="cart-item">
+                                <a href="{{ asset('TemplateSimpleUser/single-product.html') }}" class="product-thumbnail">
+                                    <img src="{{ asset('TemplateSimpleUser/images/shop/cart/cart-thumb-small-3.jpg') }}" alt="" />
+                                </a>
+                                <div class="product-details">
+                                    <a href="{{ asset('TemplateSimpleUser/single-product.html') }}" class="product-title">
+                                        Cross Summer Top
+                                    </a>
+                                    <span class="product-quantity">2 x</span>
+                                    <span class="product-price"><span class="currency">$</span>17.00</span>
+                                    <a href="#" class="product-remove icon-cancel"></a>
+                                </div>
+                            </li>
+                            <li class="cart-subtotal">
+                                Sub Total
+                                <span class="amount"><span class="currency">$</span>77.00</span>
+                            </li>
+                            <li class="cart-actions">
+                                <a href="{{ asset('TemplateSimpleUser/cart.html') }}" class="view-cart">View Cart</a>
+                                <a href="{{ asset('TemplateSimpleUser/checkout.html') }}" class="checkout"><span class="icon-check"></span> Checkout</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="contains-sub-menu">Search</a>
+                        <ul class="sub-menu custom-content">
+                            <li>
+                                <div class="search-form-container site-search">
+                                    <form action="#" method="get" novalidate>
+                                        <div class="field-wrapper">
+                                            <input type="text" name="search" class="form-search form-element no-margin-bottom" placeholder="type &amp; hit enter...">
+                                        </div>
+                                    </form>
+                                    <div class="form-response"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+
+
+
+
+
+                </ul>
+            </nav>
+            <div class="side-navigation-footer">
+                <p class="copyright no-margin-bottom">&copy; 2014 THEMEMOUNTAIN.</p>
+            </div>
+        </div>
+    </div>
+</aside>
+<!-- Side Navigation Menu End -->
+
+<div class="wrapper">
+    <div class="wrapper-inner">
+
+        <!-- Header -->
+        <header class="header header-fixed header-fixed-on-mobile header-transparent" data-bkg-threshold="100" data-compact-threshold="100">
+            <div class="header-inner">
+                <div class="row nav-bar">
+                    <div class="column width-12 nav-bar-inner">
+                        <div class="logo">
+                            <div class="logo-inner" style="width : 100cm;">
+                                <a href="{{ asset('TemplateSimpleUser/index.html') }}"><img src="{{ asset('TemplateSimpleUser/images/design-agency/logo8.png') }}" alt="Sartre Logo" style="height : 1.38cm; width : 1000cm; max-width: 125px;"/></a>
+                                <a href="{{ asset('TemplateSimpleUser/index.html') }}"><img src="{{ asset('TemplateSimpleUser/images/design-agency/logo7.png') }}" style="height : 1.38cm; width : 1000cm; max-width: 200px;" alt="Sartre Logo" /></a>
+                            </div>
+                        </div>
+                        <nav class="navigation nav-block secondary-navigation nav-right">
+                            <ul>
+                                <li>
+                                    <!-- Dropdown Cart Overview -->
+                                    <div class="dropdown">
+                                        <ul class="dropdown-list custom-content cart-overview">
+                                            <li class="cart-item">
+                                                <a href="{{ asset('TemplateSimpleUser/single-product.html') }}" class="product-thumbnail">
+                                                    <img src="{{ asset('TemplateSimpleUser/images/shop/cart/cart-thumb-small.jpg') }}" alt="" />
+                                                </a>
+                                                <div class="product-details">
+                                                    <a href="{{ asset('TemplateSimpleUser/single-product.html') }}" class="product-title">
+                                                        Cotton Jump Suit
+                                                    </a>
+                                                    <span class="product-quantity">2 x</span>
+                                                    <span class="product-price"><span class="currency">$</span>15.00</span>
+                                                    <a href="#" class="product-remove icon-cancel"></a>
+                                                </div>
+                                            </li>
+                                            <li class="cart-item">
+                                                <a href="{{ asset('TemplateSimpleUser/single-product.html') }}" class="product-thumbnail">
+                                                    <img src="{{ asset('TemplateSimpleUser/images/shop/cart/cart-thumb-small-2.jpg') }}" alt="" />
+                                                </a>
+                                                <div class="product-details">
+                                                    <a href="{{ asset('TemplateSimpleUser/single-product.html') }}" class="product-title">
+                                                        Crew Neck U.S Sweater
+                                                    </a>
+                                                    <span class="product-quantity">2 x</span>
+                                                    <span class="product-price"><span class="currency">$</span>45.00</span>
+                                                    <a href="#" class="product-remove icon-cancel"></a>
+                                                </div>
+                                            </li>
+                                            <li class="cart-item">
+                                                <a href="{{ asset('TemplateSimpleUser/single-product.html') }}" class="product-thumbnail">
+                                                    <img src="{{ asset('TemplateSimpleUser/images/shop/cart/cart-thumb-small-3.jpg') }}" alt="" />
+                                                </a>
+                                                <div class="product-details">
+                                                    <a href="{{ asset('TemplateSimpleUser/single-product.html') }}" class="product-title">
+                                                        Cross Summer Top
+                                                    </a>
+                                                    <span class="product-quantity">2 x</span>
+                                                    <span class="product-price"><span class="currency">$</span>17.00</span>
+                                                    <a href="#" class="product-remove icon-cancel"></a>
+                                                </div>
+                                            </li>
+                                            <li class="cart-subtotal">
+                                                Sub Total
+                                                <span class="amount"><span class="currency">$</span>77.00</span>
+                                            </li>
+                                            <li class="cart-actions">
+                                                <a href="{{ asset('TemplateSimpleUser/cart.html') }}" class="view-cart mt-10">View Cart</a>
+                                                <a href="{{ asset('TemplateSimpleUser/checkout.html') }}" class="checkout button small"><span class="icon-check"></span> Checkout</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <!-- Dropdown Search Module -->
+                                    <div class="dropdown">
+                                        <a href="#" class="nav-icon search button no-page-fade"><span class="icon-magnifying-glass"></span></a>
+                                        <div class="dropdown-list custom-content cart-overview">
+                                            <div class="search-form-container site-search">
+                                                <form action="#" method="get" novalidate>
+                                                    <div class="row">
+                                                        <div class="column width-12">
+                                                            <div class="field-wrapper">
+                                                                <input type="text" name="search" class="form-search form-element no-margin-bottom" placeholder="Rechercher &amp; Enter...">
+                                                                <span class="border"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                                <div class="form-response"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="v-align-middle">
+                                        <div class="dropdown" >
+                                            <a href={{ path('fos_user_security_login') }}  style="background-color: transparent;"><span class="icon-lock left" style="color:#009999;"></span><span><strong><u style="color:#b3ffe6;"><b >CONNEXION </b></u></strong></span></a>
+
+
+
+                                        </div>
+                                    </div>
+                                    <a href={{ path('fos_user_registration_register') }} data-content="inline"  style="border-color: transparent; background-color:transparent;" data-modal-mode data-modal-width="600" data-lightbox-animation="fade" data-modal-animation="slideInBottom" ><span style="color:#009999;" class="icon-lock left"></span><span style="color:#b3ffe6;"><u 	><b>Registrer</b></u></span></a>
+
+                                </li>
+                                <li class="aux-navigation hide">
+                                    <!-- Aux Navigation -->
+                                    <a href="#" class="navigation-show side-nav-show nav-icon">
+                                        <span class="icon-menu"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <nav class="navigation nav-block primary-navigation nav-right">
+                            <ul>
+                                <li class="current">
+                                    <a href="{{ asset('TemplateSimpleUser/index.html') }}" >Demos</a>
+                                    <ul class="sub-menu">
+                                        <li class="contains-sub-menu">
+                                            <a href="{{ asset('TemplateSimpleUser/index-mobile-application.html') }}">Mobile Application</a>
+                                            <ul class="sub-menu">
+                                                <li>
+                                                    <a href="{{ asset('TemplateSimpleUser/index-mobile-application.html') }}">Original</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ asset('TemplateSimpleUser/index-mobile-application-2.html') }}">Variation 2</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ asset('TemplateSimpleUser/index-mobile-application-3.html') }}">Variation 3</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ asset('TemplateSimpleUser/index-mobile-application-one-page.html') }}">One Page</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="{{ asset('TemplateSimpleUser/about-style-one.html') }}" >Pages</a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="{{ asset('TemplateSimpleUser/about-style-one.html') }}">About Original</a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li class="contains-mega-sub-menu">
+                                    <a href="{{ asset('TemplateSimpleUser/portfolio-three-columns.html') }}" >Folio</a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="{{ asset('TemplateSimpleUser/index-mobile-application.html') }}" class="contains-sub-menu">Mobile Application</a>
+                                            <ul class="sub-menu">
+                                                <li>
+                                                    <a href="{{ asset('TemplateSimpleUser/index-mobile-application.html') }}">Original</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ asset('TemplateSimpleUser/index-mobile-application-2.html') }}">Variation 2</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ asset('TemplateSimpleUser/index-mobile-application-3.html') }}">Variation 3</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ asset('TemplateSimpleUser/index-mobile-application-one-page.html') }}">One Page</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+
+
+
+
+
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="{{ asset('TemplateSimpleUser/blog.html') }}" >Blog</a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="{{ asset('TemplateSimpleUser/blog.html') }}">3 Column Grid</a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li class="sub-menu-right">
+                                    <a href="{{ asset('TemplateSimpleUser/shop-grid.html') }}" >Shop</a>
+                                    <ul class="sub-menu">
+                                        <li class="contains-sub-menu">
+                                            <a href="{{ asset('TemplateSimpleUser/shop-grid.html') }}">Shop Layouts</a>
+                                            <ul class="sub-menu">
+                                                <li>
+                                                    <a href="{{ asset('TemplateSimpleUser/shop-grid.html') }}">Shop Grid</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ asset('TemplateSimpleUser/shop-creative.html') }}">Shop Creative</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ asset('TemplateSimpleUser/shop-sidebar-right.html') }}">Shop Sidebar Right</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="contains-sub-menu">
+                                            <a href="{{ asset('TemplateSimpleUser/single-product.html') }}">Single Product</a>
+                                            <ul class="sub-menu">
+                                                <li>
+                                                    <a href="{{ asset('TemplateSimpleUser/single-product-with-gallery.html') }}">Product With Gallery</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ asset('TemplateSimpleUser/single-product-with-header.html') }}">Product With Header</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ asset('TemplateSimpleUser/single-product-with-parallax.html') }}">Product With Parallax</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ asset('TemplateSimpleUser/single-product-on-sale.html') }}">Product On Sale</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ asset('TemplateSimpleUser/single-product-no-stock.html') }}">Product Out Of Stock</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="{{ asset('TemplateSimpleUser/cart.html') }}">Cart</a>
+                                        </li>
+                                        <li>
+                                            <a href="{{ asset('TemplateSimpleUser/checkout.html') }}">Checkout</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header End -->
+
+        <!-- Content -->
+        <div class="content clearfix">
+
+            <!-- Fullscreen Slider Section -->
+            <section class="section-block featured-media tm-slider-parallax-container">
+                <div class="tm-slider-container full-width-slider" data-featured-slider data-parallax data-scale-under="960">
+                    <ul class="tms-slides">
+                        <li class="tms-slide" data-image data-as-bkg-image data-force-fit data-overlay-bkg-color="#0000000" data-overlay-bkg-opacity="0.4">
+                            <div class="tms-content" style="height:700px;">
+                                <div class="tms-content-inner center v-align-middle" >
+                                    <div class="row" >
+                                        <div class="column width-12">
+                                            <h1 class="tms-caption color-white title-xlarge mb-0"
+                                                data-animate-in="preset:slideInUpShort;duration:900ms;delay:100ms;" style="color : #b3ffec;"
+                                                data-no-scale
+                                            ><strong style='font-family:Monotype Corsiva;'>Bien être & Santé</strong></h1>
+                                            <div class="clear"></div>
+                                            <p class="tms-caption lead mb-20 color-grey-ultralight"
+                                               data-animate-in="preset:slideInUpShort;duration:900ms;delay:200ms;"
+                                               data-no-scale
+                                            >Besoin de soin, besoin de nous </p>
+                                            <div class="clear"></div>
+                                            <div class="tms-caption"
+                                                 data-animate-in="preset:slideInUpShort;duration:900ms;delay:400ms;"
+                                                 data-no-scale
+                                            >
+                                                <a href="#homepage-demos" data-offset="-60" class="button medium border-grey-light bkg-hover-theme color-white color-hover-white text-uppercase scroll-link">Les Produits</a>
+                                            </div>
+                                            <div class="tms-caption"
+                                                 data-animate-in="preset:slideInUpShort;duration:900ms;delay:400ms;"
+                                                 data-no-scale
+                                            >
+                                                <a href="#one-page-demos" data-offset="-60" class="button medium border-grey-light bkg-hover-theme color-white color-hover-white text-uppercase scroll-link">Les Soins</a>
+                                            </div>
+                                            <div class="tms-caption"
+                                                 data-animate-in="preset:slideInUpShort;duration:900ms;delay:400ms;"
+                                                 data-no-scale
+                                            >
+                                                <a href="#heros" data-offset="-60" class="button medium border-grey-light bkg-hover-theme color-white color-hover-white text-uppercase scroll-link">les Formations</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img data-src="{{ asset('TemplateSimpleUser/images/generic/hero-screens.jpg') }}" src="{{ asset('TemplateSimpleUser/images/blank.png') }}" alt=""/>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- Fullscreen Slider Section End -->
+
+            <!-- Feature Section 2 -->
+            <section id="block-design" class="section-block feature-2 " >
+                <div class="row flex">
+                    <div class="column width-6 push-6">
+                        <div class="feature-image mb-mobile-50">
+                            <div class="feature-image-inner center-on-mobile horizon" data-animate-in="preset:slideInRightShort;duration:1000ms;" data-threshold="0.6">
+
+
+
+                                <div  style="max-width:600px; margin-left:2cm;   ">
+                                    <img class="mySlides w3-animate-fading" src="{{ asset('TemplateSimpleUser/images/photos/aa.jpg') }}" style="width:80%; height:90%; border-radius:8%; box-shadow: 10px 10px 5px #aaaaaa;">
+
+                                    <img class="mySlides w3-animate-fading" src="{{ asset('TemplateSimpleUser/images/photos/ll.jpg') }}" style="width:80%; height:100%;  border-radius:8%; box-shadow: 10px 10px 5px #aaaaaa;">
+                                    <img class="mySlides w3-animate-fading" src="{{ asset('TemplateSimpleUser/images/photos/images (4).jpg') }}" style="width:80%; height:100%; border-radius:8%; box-shadow: 10px 10px 5px #aaaaaa; ">
+                                    <img class="mySlides w3-animate-fading" src="{{ asset('TemplateSimpleUser/images/photos/images (5).jpg') }}" style="width:80%; height:100%; border-radius:8%; box-shadow: 10px 10px 5px #aaaaaa;">
+                                </div>
+
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column width-5 pull-6 pull-1">
+                        <div class="feature-content">
+                            <div class="feature-content-inner horizon center-on-mobile" data-animate-in="preset:slideInUpShort;duration:900ms;delay:300ms;" data-threshold="0.6">
+                                <h2 class="mb-30">Block Based Design</h2>
+                                <p class="lead">Build truly stunning layouts quickly by mixing pre-designed content blocks from different layouts. Simple!</p>
+                                <p>Sartre comes with some 70+ page layouts that offer unique and beautifully design blocks that look great on desktop, tablet and mobile. Sartre now also includes fully functional onepage layouts! The possibilities are endless.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Feature Section 2 End -->
+
+            <!-- Feature Section 2 -->
+            <section class="section-block bkg-charcoal feature-2 right">
+                <div class="row flex">
+                    <div class="column width-6">
+                        <div class="feature-image mb-mobile-50">
+                            <div class="feature-image-inner center-on-mobile horizon" data-animate-in="preset:slideInRightShort;duration:1000ms;" data-threshold="0.6">
+
+                                <video class="video" loop controls autoplay muted  width="320"  height="240" >
+                                    <source src="{{ asset('TemplateSimpleUser/video/tt.mp4') }}" type="video/mp4">
+                                </video>
+                                <!-- <img src="images/generic/feature-navigation.jpg" alt="Sartre HTML Off Canvas Navigation" title="Sartre Multipurpose HTML Off Canvas Navigation" /> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column width-5 push-1">
+                        <div class="feature-content">
+                            <div class="feature-content-inner left center-on-mobile horizon" data-animate-in="preset:slideInUpShort;duration:900ms;delay:300ms;" data-threshold="0.6">
+                                <h2 class="mb-30 color-white">" Face au cancer, on est plus fort ensemble ! "</h2>
+                                <p class="lead color-grey-light">Sartre offers several navgiation types that are functional yet beautiful.</p>
+                                <p class="color-grey-light">With multiple navigation types and a variety of ways to style headers, main menus, and auxiliary navigation, you can create a totally unique experience for your users.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Feature Section 2 End -->
+
+            <!-- Demo Grid -->
+            <div id="homepage-demos" class="section-block no-padding-bottom bkg-grey-ultralight">
+                <div class="row">
+                    <div class="column width-12">
+                        <h2 class="mb-60">Les produits</h2>
+                    </div>
+                </div>
+            </div>
+            <div id="homepage-grid" class="section-block grid-container fade-in-progressively no-padding-top no-padding-bottom bkg-grey-ultralight" data-layout-mode="fitRows" data-animate-filter-duration="700" data-animate-resize data-animate-resize-duration="0">
+                <div class="row">
+                    <div class="column width-12">
+                        <div class="row grid content-grid-3">
+                            <div class="grid-item mobile-app home-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-mobile-application.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/photos/8.jpg') }}" style=" max-height:100%; max-width:100%;" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Chaise Roulante</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item mobile-app home-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-mobile-application-2.html') }}">
+                                        <img src="{{ ('TemplateSimpleUser/images/portfolio/grid/large-margins/mobile-app-2.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Béquille</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item mobile-app home-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-mobile-application-3.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/mobile-app-3.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Mobile App 3</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item web-app home-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-web-application.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/web-app-1.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Web App</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item web-app home-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-web-application-2.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/web-app-2.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Web App 2</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item web-app home-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-web-application-3.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/web-app-3.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Web App 3</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item barber-shop home-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-barber-shop.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/barber-1.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Barber Shop</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item barber-shop home-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-barber-shop-2.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/barber-2.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Barber Shop 2</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item barber-shop home-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-barber-shop-3.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/barber-3.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Barber Shop 3</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item design-agency home-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-design-agency.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/agency-1.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Agency</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item design-agency home-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-design-agency-2.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/agency-2.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Agency 2</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item design-agency home-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-design-agency-3.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/agency-3.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Agency 3</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item travel-agency home-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-travel-agency.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/travel-1.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Travel Agency</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item travel-agency home-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-travel-agency-2.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/travel-2.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Travel Agency 2</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item travel-agency home-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-travel-agency-3.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/travel-3.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Travel Agency 3</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item restaurant home-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-restaurant.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/restaurant-1.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Restaurant</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item restaurant home-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-restaurant-2.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/restaurant-2.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Restaurant 2</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item restaurant home-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-restaurant-3.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/restaurant-3.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Restaurant 3</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item resume home-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-resume.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/resume-1.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Resume</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item resume home-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-resume-2.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/resume-2.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Resume 2</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item resume home-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-resume-3.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/resume-3.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Resume 3</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item photo-studio home-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-photo-studio.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/photography-1.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Photography</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item photo-studio home-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-photo-studio-2.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/photography-2.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Photography 2</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item photo-studio home-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-photo-studio-3.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/photography-3.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Photography 3</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item architecture home-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-architecture.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/architecture-1.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Architecture</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item architecture home-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-architecture-2.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/architecture-2.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Architecture 2</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item architecture home-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-architecture-3.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/architecture-3.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Architecture 3</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Demo Grid End -->
+
+            <!-- Demo Grid -->
+            <div id="one-page-demos" class="section-block no-padding-bottom bkg-grey-ultralight">
+                <div class="row">
+                    <div class="column width-12">
+                        <h2 class="mb-60">Les Soins</h2>
+                    </div>
+                </div>
+            </div>
+            <div id="one-page-grid" class="section-block grid-container fade-in-progressively no-padding-top no-padding-bottom bkg-grey-ultralight" data-layout-mode="fitRows" data-animate-filter-duration="700" data-animate-resize data-animate-resize-duration="0">
+                <div class="row">
+                    <div class="column width-12">
+                        <div class="row grid content-grid-3">
+                            <div class="grid-item mobile-app one-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-mobile-application-one-page.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/mobile-app-one-page.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Mobile App One Page</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item mobile-app one-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-web-application-one-page.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/web-app-one-page.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Web App One Page</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item barber-shop one-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-barber-shop-one-page.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/barber-one-page.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">One Page Barber Shop</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item design-agency one-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-design-agency-one-page.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/agency-one-page.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">One Page Agency</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item design-agency one-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-design-agency-one-page-2.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/agency-one-page-2.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">One Page Agency 2(Renard) <span class="label bkg-theme color-white pull-right">New</span></h3>
+                                </div>
+                            </div>
+                            <div class="grid-item travel-agency one-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-travel-agency-one-page.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/travel-one-page.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Travel Agency One Page</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item restaurant one-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-restaurant-one-page.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/restaurant-one-page.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Restaurant One Page</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item grid-sizer resume one-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-resume-one-page.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/resume-one-page.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">One Page Resume</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item photo-studio one-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-photo-studio-one-page.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/photography-one-page.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">One Page Photography</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item mobile-app one-page-layout">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-architecture-one-page.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/architecture-one-page.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Architecture One Page</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Demo Grid End -->
+
+            <!-- Hero Grid -->
+            <div id="heros" class="section-block pt-80 no-padding-bottom bkg-grey-ultralight">
+                <div class="row">
+                    <div class="column width-12">
+                        <h2  class="mb-60">Les Formations</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="section-block grid-container fade-in-progressively no-padding-top bkg-grey-ultralight" data-layout-mode="masonry" data-animate-filter-duration="700" data-animate-resize data-animate-resize-duration="0">
+                <div class="row">
+                    <div class="column width-12">
+                        <div class="row grid content-grid-3">
+                            <div class="grid-item grid-sizer">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-slider-background-video.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/hero-slider-bkg-video.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Slider w/ HTML5 Bkg Video</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-slider-background-video-vimeo.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/hero-slider-bkg-video-vimeo.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Slider w/ Vimeo Bkg Video <span class="label bkg-theme color-white pull-right">New</span></h3>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-slider-background-video-youtube.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/hero-slider-bkg-video-youtube.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Slider w/ YouTube Bkg Video <span class="label bkg-theme color-white pull-right">New</span></h3>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-slider-video.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/hero-slider-video.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Slider w/ Video</h3>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+                                    <a class="overlay-link" href="{{ asset('TemplateSimpleUser/index-slider-caption-showdown.html') }}">
+                                        <img src="{{ asset('TemplateSimpleUser/images/portfolio/grid/large-margins/hero-slider-captions.jpg') }}" alt=""/>
+                                        <span class="overlay-info">
+												<span>
+													<span>
+														<span class="icon-plus"></span>
+													</span>
+												</span>
+											</span>
+                                    </a>
+                                </div>
+                                <div class="item-description with-background">
+                                    <h3 class="project-title">Slider Caption Showdown</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Hero Grid End -->
+
+            <!-- Feature Column Section -->
+            <div id="discover" class="section-block replicable-content">
+                <div class="row">
+                    <div class="column width-8 offset-2 center">
+                        <h2 class="mb-10">Express Yourself With Sartre</h2>
+                        <p class="lead mb-60">Sartre provides you with the tools you need to create a unique website.</p>
+                    </div>
+                </div>
+                <div class="row flex">
+                    <div class="column width-4">
+                        <div class="box small bkg-white">
+                            <div class="feature-column small mb-50 left">
+                                <span class="feature-icon icon-map color-charcoal"></span>
+                                <div class="feature-text">
+                                    <h3>24 Variations</h3>
+                                    <p>Sartre is focused around 8 unique concepts with 3 variations each. Sartre has got you covered whether you are a startup or established business.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column width-4">
+                        <div class="box small bkg-white">
+                            <div class="feature-column small left">
+                                <span class="feature-icon icon-add-to-list color-charcoal"></span>
+                                <div class="feature-text">
+                                    <h3>20+ Components</h3>
+                                    <p>Make any design stand out by using a combination of the 20+ components that come with Sartre. Accordions, tabs, buttons and much more.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column width-4">
+                        <div class="box small bkg-white">
+                            <div class="feature-column small mb-50 left">
+                                <span class="feature-icon icon-power-plug color-charcoal"></span>
+                                <div class="feature-text">
+                                    <h3>8+ Plugins</h3>
+                                    <p>As with all our templates, Sartre comes with 8 premium in-house developed plugins, which means that when there's an update, you'll get it.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column width-4">
+                        <div class="box small bkg-white">
+                            <div class="feature-column small left">
+                                <span class="feature-icon icon-grid color-charcoal"></span>
+                                <div class="feature-text">
+                                    <h3>Block Based</h3>
+                                    <p>Sartre, like all our templates, is built using a block based, responsive framework that makes designing easier. Move blocks around and get a new design.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column width-4">
+                        <div class="box small bkg-white">
+                            <div class="feature-column small mb-50 left">
+                                <span class="feature-icon icon-credit color-charcoal"></span>
+                                <div class="feature-text">
+                                    <h3>Ultimate Startup Pack</h3>
+                                    <p>Sartre is a great starting point for startups that need a quick and simple solution when it comes to creating a site. Save both time &amp; money.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column width-4">
+                        <div class="box small bkg-white">
+                            <div class="feature-column small left">
+                                <span class="feature-icon icon-infinity color-charcoal"></span>
+                                <div class="feature-text">
+                                    <h3>Infinite Possibilities</h3>
+                                    <p>With a range of pre-design content blocks, components and plugins, Sarte provides you with an unlimited number of possibilities.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Feature Column Section End -->
+
+        </div>
+        <!-- Content End -->
+
+        <!-- Footer -->
+        <footer class="footer"  style="background-image:url('{{ asset('TemplateSimpleUser/images/photos/xx.png') }}'); max-width:100%;">
+            <div class="footer-top" >
+                <div class="row flex">
+                    <div class="column width-6 offset-3 center">
+                        <div class="widget">
+                            <h4 class="widget-title" style="color:gray;">Nous Visiter</h4>
+                            <ul class="social-list list-horizontal">
+                                <li><a href="#"><span class="icon-twitter-with-circle medium"></span></a></li>
+                                <li><a href="#"><span class="icon-facebook-with-circle medium"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="column width-12">
+                        <div class="footer-bottom-inner">
+                            <p class="copyright pull-left" style="margin-left:-3cm; color : gray; margin-bottom:-5cm; opacity:10;">&copy; Bien être & Santé. Tous les droits sont réservés.</p>
+                            <a href="#" class="scroll-to-top pull-right" style="color:#009999;" ><b>  ⇞ Vers le HAUT</b></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+
+    </div>
+</div>
+
+<script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 8000);
+
+    }
+
+
+</script>
+
+
+<!-- Js -->
+<script src="{{ asset('https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js') }}"></script>
+<script src="{{ asset('https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js') }}"></script>
+<script src="{{ asset('https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js') }}"></script>
+<script src="{{ asset('http://maps.googleapis.com/maps/api/js?v=3') }}"></script>
+<script src="{{ asset('TemplateSimpleUser/js/timber.master.min.js') }}"></script>
+</body>
+</html>

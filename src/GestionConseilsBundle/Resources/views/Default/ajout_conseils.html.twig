@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
+	<meta name="twitter:widgets:theme" content="light">
+	<meta property="og:title" content="Your-Title-Here" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="Your-Image-Url" />
+	<meta property="og:description" content="Your-Page-Description" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="{{ asset('Front/images/icons/favicon.ico') }}"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ asset('Front/vendor/bootstrap/css/bootstrap.min.css') }}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ asset('Front/fonts/font-awesome-4.7.0/css/font-awesome.min.css') }}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ asset('Front/fonts/Linearicons-Free-v1.0.0/icon-font.min.css') }}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ asset('Front/vendor/animate/animate.css') }}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ asset('Front/vendor/css-hamburgers/hamburgers.min.css') }}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ asset('Front/vendor/animsition/css/animsition.min.css') }}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ asset('Front/vendor/select2/select2.min.css') }}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ asset('Front/vendor/daterangepicker/daterangepicker.css') }}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ asset('Front/css/util.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ asset('Front/css/main.css') }}">
+<!--===============================================================================================-->
+	<title>Sartre | Multipurpose HTML5 Template - Photo Studio</title>
+	<link rel="shortcut icon" type="image/x-icon" href="{{ asset('Front/images/theme-mountain-favicon.ico') }}">
+
+	<link href='https://fonts.googleapis.com/css?family=Raleway:300,400,600%7CLato:300,400,700' rel='stylesheet' type='text/css'>
+	
+	<!-- Css -->
+	<link rel="stylesheet" href="{{ asset('Front/css/core.min.css') }}" />
+	<link rel="stylesheet" href="{{ asset('Front/css/skin-photo-studio.css') }}" />
+
+</head>
+
+<body class="shop home-page">
+
+	<!-- Side Navigation Menu -->
+	<aside class="side-navigation-wrapper enter-right" data-no-scrollbar data-animation="reveal">
+		<div class="side-navigation-scroll-pane">
+			<div class="side-navigation-inner">
+				<div class="side-navigation-header">
+					<div class="navigation-hide side-nav-hide">
+						<a href="#">
+							<span class="icon-cancel medium"></span>
+						</a>
+					</div>
+				</div>
+				<nav class="side-navigation center">
+					<ul>
+						<li >
+							<a href="{{ asset('#') }}" class="contains-sub-menu">Gestion Produit</a>
+							<ul class="sub-menu">
+
+
+
+								<li >
+									<a href="{{ asset('Front/index-photo-studio.html" class="contains-sub-menu') }}">mes Produit </a>
+
+								<li class="current">
+									<a href="{{ asset('Front/index-photo-studio.html" class="contains-sub-menu') }}">Ajout Prdouit</a>
+
+
+
+								</li>
+
+								</li>
+							</ul>
+
+
+					</ul>
+					</li>
+
+					</ul>
+					<ul>
+						<li >
+							<a href="" class="contains-sub-menu">Gestion Soins</a>
+							<ul class="sub-menu">
+
+
+
+								<li >
+									<a href="{{ path('super_user_conseils_affiche') }}">mes soins </a>
+								</li>
+								<li >
+									<a href="{{ path('super_user_soins_affiche') }}" >ajout soins</a>
+
+
+
+								</li>
+							</ul>
+
+						</li>
+
+					</ul>
+					</li>
+
+					</ul>
+					<ul>
+						<li class="current" >
+							<a href="{{ asset('#') }}" class="contains-sub-menu">gestion des conseils</a>
+							<ul class="sub-menu">
+
+
+
+								<li >
+									<a href="{{ asset('Front/index-photo-studio.html') }}" class="contains-sub-menu">mes conseils </a>
+
+								<li class="current">
+									<a href="{{ path('super_user_conseils_affiche') }}" >ajouter conseils</a>
+
+
+
+								</li>
+
+								</li>
+							</ul>
+
+
+					</ul>
+					</li>
+
+					</ul>
+					<ul>
+						<li >
+							<a href="{{ asset('#') }}" class="contains-sub-menu">Gestion Recommandations</a>
+							<ul class="sub-menu">
+
+
+
+								<li class="current">
+									<a href="{{ asset('Front/index-photo-studio.html') }}" class="contains-sub-menu">mes Recommandations </a>
+
+								<li class="current">
+									<a href="{{ asset('Front/index-photo-studio.html') }}" class="contains-sub-menu">ajout Recommandations</a>
+
+
+
+								</li>
+
+								</li>
+							</ul>
+
+
+					</ul>
+					</li>
+
+					</ul>
+					<ul>
+						<li >
+							<a href="{{ asset('#') }}" class="contains-sub-menu">Gestions formations</a>
+							<ul class="sub-menu">
+
+
+
+								<li class="current">
+									<a href="{{ asset('Front/index-photo-studio.html') }}" class="contains-sub-menu">mes formations</a>
+
+								<li class="current">
+									<a href="{{ path('super_user_formation_affiche') }}">Ajout formation</a>
+
+
+
+								</li>
+
+								</li>
+							</ul>
+
+
+					</ul>
+					</li>
+
+					</ul>
+				</nav>
+				<div class="side-navigation-footer center">
+					<ul class="social-list list-horizontal center">
+						<li><a href="#"><span class="icon-twitter small"></span></a></li>
+						<li><a href="#"><span class="icon-facebook small"></span></a></li>
+						<li><a href="#"><span class="icon-instagram small"></span></a></li>
+					</ul>
+
+
+					<p class="copyright no-margin-bottom">&copy; 2014 THEMEMOUNTAIN.</p>
+				</div>
+			</div>
+		</div>
+	</aside>
+	<!-- Side Navigation Menu End -->
+
+	<div class="wrapper reveal-side-navigation">
+		<div class="wrapper-inner">
+
+			<!-- Header -->
+			<header class="header header-fixed-on-mobile" data-sticky-threshold="0" data-bkg-threshold="100">
+				<div class="header-inner">
+					<div class="row nav-bar">
+						<div class="column width-12 nav-bar-inner">
+							<div class="logo">
+								<div class="logo-inner">
+									<a href="index.html"><img src="{{ asset('Front/images/photo-studio/logo-dark.png') }}" alt="Sartre Logo" /></a>
+									<a href="index.html"><img src="{{ asset('Front/images/photo-studio/logo.png') }}" alt="Sartre Logo" /></a>
+								</div>
+							</div>
+							<nav class="navigation nav-block secondary-navigation nav-right">
+								<ul>
+									
+									<li>
+										<div class="dropdown">
+											
+											<a href="#" class="nav-icon cart button no-page-fade">
+										   	    	<span class="cart-indication"><span class="icon-shopping-cart"></span>
+										     	    <span class="badge">3</span></span>
+											</a>
+											
+											<a href="#" class="nav-icon cart button no-page-fade">
+											
+											<span class="cart-indication"><span class="fa fa-bell"></span>
+										    <span class="badge">3</span></span></a>
+										
+											<ul class="dropdown-list custom-content cart-overview">
+												<li class="cart-item">
+													<a href="single-product.html" class="product-thumbnail">
+														<img src="{{ asset('Front/images/design-agency/portfolio/grid/no-margins/project-6-square.jpg') }}" alt="" />
+													</a>
+													<div class="product-details">
+														<a href="single-product.html" class="product-title">
+															Cotton Jump Suit
+														</a>
+														<span class="product-quantity">2 x</span>
+														<span class="product-price"><span class="currency">$</span>15.00</span>
+														<a href="#" class="product-remove icon-cancel"></a>
+													</div>
+												</li>
+
+												<li class="cart-item">
+													<a href="single-product.html" class="product-thumbnail">
+														<img src="{{ asset('Front/images/design-agency/portfolio/grid/no-margins/project-7-square.jpg') }}" alt="" />
+													</a>
+													<div class="product-details">
+														<a href="single-product.html" class="product-title">
+															Cotton Jump Suit
+														</a>
+														<span class="product-quantity">2 x</span>
+														<span class="product-price"><span class="currency">$</span>15.00</span>
+														<a href="#" class="product-remove icon-cancel"></a>
+													</div>
+												</li>
+												<li class="cart-item">
+													<a href="single-product.html" class="product-thumbnail">
+														<img src="{{ asset('Front/images/design-agency/portfolio/grid/no-margins/project-8-square.jpg') }}" alt="" />
+													</a>
+													<div class="product-details">
+														<a href="single-product.html" class="product-title">
+															Cotton Jump Suit
+														</a>
+														<span class="product-quantity">2 x</span>
+														<span class="product-price"><span class="currency">$</span>15.00</span>
+														<a href="#" class="product-remove icon-cancel"></a>
+													</div>
+												</li>
+												<li class="cart-subtotal">
+													Sub Total
+													<span class="amount"><span class="currency">$</span>15.00</span>
+												</li>
+												<li class="cart-actions">
+													<a href="cart.html" class="view-cart">View Cart</a>
+													<a href="checkout.html" class="checkout button small"><span class="icon-check"></span> Checkout</a>
+												</li>
+											</ul>
+										</div>
+									</li> 
+									
+									<li>
+										<div class="dropdown">
+											<a href="#" class="nav-icon search button no-page-fade"><span class="icon-magnifying-glass"></span></a>
+											<div class="dropdown-list custom-content cart-overview">
+												<div class="search-form-container site-search">
+													<form action="#" method="get" novalidate>
+														<div class="row">
+															<div class="column width-12">
+																<div class="field-wrapper">
+																	<input type="text" name="search" class="form-search form-element no-margin-bottom" placeholder="type &amp; hit enter...">
+																	<span class="border"></span>
+																</div>
+															</div>
+														</div>
+													</form>
+													<div class="form-response"></div>
+												</div>
+											</div>
+										</div>
+									</li> 
+									
+									
+									<li class="aux-navigation">
+										<a href="#" class="navigation-show side-nav-show nav-icon">
+											<span class="icon-menu"></span>
+										</a>
+									</li>
+
+									
+								</ul>
+							</nav>
+							
+							<nav class="navigation nav-block primary-navigation nav-right">
+								<ul>
+									<li class="current">
+										<a href=>forum</a>
+										<ul class="sub-menu" style="opacity: 0.8; color: #7CACB9  ;">
+											<li class="contains-sub-menu">
+												<a href="">Mobile Application</a>
+												<ul class="sub-menu">
+													<li>
+														<a href=>Original</a>
+													</li>
+													
+												</ul>
+											</li>
+										
+							
+									<li class="contains-mega-sub-menu">
+										
+										<ul class="mega-sub-menu">
+											
+											
+										
+										</ul>
+									</li>
+								</ul>
+							</nav> 
+							<nav class="navigation nav-block primary-navigation nav-right">
+								<ul>
+									<li class="current">
+										<a href=>recommandations</a>
+										<ul class="sub-menu" style="opacity: 0.8; color: #7CACB9  ;">
+											<li class="contains-sub-menu">
+												<a href="">Mobile Application</a>
+												<ul class="sub-menu">
+													<li>
+														<a href=>Original</a>
+													</li>
+													
+												</ul>
+											</li>
+										
+							
+									<li class="contains-mega-sub-menu">
+										
+										<ul class="mega-sub-menu">
+											
+											
+										
+										</ul>
+									</li>
+								</ul>
+							</nav> 
+							<nav class="navigation nav-block primary-navigation nav-right">
+								<ul>
+									<li class="current">
+										<a href=>conseils</a>
+										<ul class="sub-menu" style="opacity: 0.8; color: #7CACB9  ;">
+											<li class="contains-sub-menu">
+												<a href="">Mobile Application</a>
+												<ul class="sub-menu">
+													<li>
+														<a href=>Original</a>
+													</li>
+													
+												</ul>
+											</li>
+										
+							
+									<li class="contains-mega-sub-menu">
+										
+										<ul class="mega-sub-menu">
+											
+											
+										
+										</ul>
+									</li>
+								</ul>
+							</nav> 
+							<nav class="navigation nav-block primary-navigation nav-right">
+								<ul>
+									<li class="current">
+										<a href= > formations</a>
+
+										<ul class="sub-menu" style="opacity: 0.8; color: #7CACB9  ;">
+											<li class="contains-sub-menu">
+												<a href="">Mobile Application</a>
+												<ul class="sub-menu">
+													<li>
+														<a href=>Original</a>
+													</li>
+													
+												</ul>
+											</li>
+										
+							
+									<li class="contains-mega-sub-menu">
+										
+										<ul class="mega-sub-menu">
+											
+											
+										
+										</ul>
+									</li>
+								</ul>
+							</nav>
+							<nav class="navigation nav-block primary-navigation nav-right">
+								<ul>
+									<li class="current">
+										<a href= >soins</a>
+
+										<ul class="sub-menu" style="opacity: 0.8; color: #7CACB9  ;">
+											<li class="contains-sub-menu">
+												<a href="">Mobile Application</a>
+												<ul class="sub-menu">
+													<li>
+														<a href=>Original</a>
+													</li>
+													
+												</ul>
+											</li>
+										
+							
+									<li class="contains-mega-sub-menu">
+										
+										<ul class="mega-sub-menu">
+											
+											
+										
+										</ul>
+									</li>
+								</ul>
+							</nav> 
+							 
+							<nav class="navigation nav-block primary-navigation nav-right">
+								<ul>
+									<li class="current">
+										<a href=>Accueil</a>
+										<ul class="sub-menu" style="opacity: 0.8; color: #7CACB9  ;">
+											<li class="contains-sub-menu">
+												<a href="">Mobile Application</a>
+												<ul class="sub-menu">
+													<li>
+														<a href=>Original</a>
+													</li>
+													
+												</ul>
+											</li>
+										
+							
+									<li class="contains-mega-sub-menu">
+										
+										<ul class="mega-sub-menu">
+											
+											
+										
+										</ul>
+									</li>
+								</ul>
+							</nav> 
+
+
+						</div>
+					</div>
+				</div>
+			</header>
+			<!-- Header End -->
+
+			<!-- Content -->
+			<div class="content clearfix"   >
+
+				<!-- Intro Title Section 1 -->
+			
+				<!-- Intro Title Section 1 End -->
+
+				<!-- Portfolio Grid -->
+				<div class="section-block grid-filter-menu no-padding-top right left-on-mobile" style="background-color: #F8FEFF   ; "><br><br>
+					<div class="row no-padding">
+						<div class="column width-6 left">
+						
+						</div>
+						<div class="column width-6">
+							
+						</div>
+					</div>
+				</div>
+				
+			
+				
+					<div class="container-contact100">
+		
+		<div class="wrap-contact100">
+			
+
+			<form  class="contact100-form validate-form">
+		
+					
+				
+				
+
+ 					
+				<div class="wrap-input100 validate-input" data-validate="Phone is required">
+					<span class="label-input100">Advise Title</span>
+					<input class="input100" type="text" name="phone" placeholder="Enter ur case title">
+					<span class="focus-input100"></span>
+				</div>
+				
+			
+				<div id="koko" style="width: 320px"><div><div class="wrap-input100 validate-input" data-validate="Name is required">
+					<span class="label-input100">Advise1:</span>
+					<textarea class="input100" name="message" placeholder="Your Advise num 1..."></textarea>
+					<span class="focus-input100"></span>
+				</div></div></div>
+					
+					<div style="position: relative;">
+						<img src="{{ asset('Front/images/icon.jpg') }}" style="width: 20px; height: 20px " onclick="ajout()"; >
+					</div>
+					<div id="kaka" style="display: inline-table; width: 400px" >
+						
+					</div>
+
+
+
+
+				
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn">
+						<span>
+							Save
+							<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+						</span>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+			<!-- Content End -->
+
+			<!-- Footer -->
+			<footer class="footer">
+				<div class="footer-top">
+					<div class="row flex">
+						<div class="column width-3">
+							<div class="widget">
+								<h4 class="widget-title"><strong>Sartre.</strong><br>Photography</h4>
+							</div>
+						</div>
+						<div class="column width-3">
+							<div class="widget">
+								<ul>
+									<li>
+										<a href="#">The Studio</a>
+									</li>
+									<li>
+										<a href="#">Private Collection</a>
+									</li>
+									<li>
+										<a href="#">International Recognition</a>
+									</li>
+									<li>
+										<a href="#">Awards</a>
+									</li>
+									<li>
+										<a href="#">Get In Touch</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="column width-6 right left-on-mobile">
+							<div class="widget">
+								<ul class="social-list list-horizontal">
+									<li><a href="#"><span class="icon-twitter small"></span></a></li>
+									<li><a href="#"><span class="icon-facebook small"></span></a></li>
+									<li><a href="#"><span class="icon-instagram small"></span></a></li>
+								</ul>
+								<p class="copyright">
+									All photography is the property of <br>Sartre Photography Inc.<br>
+									&copy; ThemeMountain. All Rights Reserved.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- Footer End -->
+
+		</div>
+	</div>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maps.googleapis.com/maps/api/js?v=3"></script>
+	<script src="{{ asset('Front/js/timber.master.min.js') }}"></script>
+	<!--===============================================================================================-->
+	<script src="{{ asset('Front/vendor/jquery/jquery-3.2.1.min.js') }}"></script>
+<!--===============================================================================================-->
+	<script src="{{ asset('Front/vendor/animsition/js/animsition.min.js') }}"></script>
+<!--===============================================================================================-->
+	<script src="{{ asset('Front/vendor/bootstrap/js/popper.js') }}"></script>
+	<script src="{{ asset('Front/vendor/bootstrap/js/bootstrap.min.js') }}"></script>
+<!--===============================================================================================-->
+	<script src="{{ asset('Front/vendor/select2/select2.min.js') }}"></script>
+<!--===============================================================================================-->
+	<script src="{{ asset('Front/vendor/daterangepicker/moment.min.js') }}"></script>
+	<script src="{{ asset('Front/vendor/daterangepicker/daterangepicker.js') }}"></script>
+<!--===============================================================================================-->
+	<script src="{{ asset('Front/vendor/countdowntime/countdowntime.js') }}"></script>
+<!--===============================================================================================-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes"></script>
+	<script src="{{ asset('Front/js/map-custom.js') }}"></script>
+<!--===============================================================================================-->
+	<script src="{{ asset('Front/js/main.js') }}"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-23581568-13');
+	</script>
+	<script type="text/javascript">
+
+var n = 1;
+function ajout() {
+	if (n==6){
+		alert('no more symp');
+	}
+        
+        if (n<6){
+        	n=n+1;
+   document.getElementById('kaka').innerHTML += '<div id="'+n+'"  ><div style="display: table-cell; width: 325px;"><div class="wrap-input100 validate-input" data-validate="Name is required"><span class="label-input100">Advise'+n+'</span><textarea class="input100" name="message" placeholder="Your Advise num'+n+'..."></textarea><span class="focus-input100"></span></div></div><div style="display: table-cell; width: 50px;"><img src="{{ asset('Front/images/xicon.jpg') }}" style="width: 20px; height: 20px" onclick="supprimer(\''+n+'\')"  ></div><div style="display: table-cell;" ><img src="{{ asset('Front/images/icon.jpg') }}" style="width: 20px; height: 20px " onclick="ajout()"; ></div></div>';
+		
+		
+	}
+
+		
+        
+}
+function supprimer(k) {
+        { 
+        	
+        		var element = document.getElementById(k);
+				element.parentNode.removeChild(element);
+         n=n-1;
+                
+                
+               
+        }
+}
+
+</script>
+</body>
+</html>

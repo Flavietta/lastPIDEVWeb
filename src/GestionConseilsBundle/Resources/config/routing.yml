@@ -1,0 +1,6 @@
+gestion_conseils_homepage:
+    path:     /
+    defaults: { _controller: GestionConseilsBundle:Default:index }
+super_user_conseils_affiche:
+    path:     /conseils/ajout
+    defaults: { _controller: GestionConseilsBundle:G_Conseils:Ajout }

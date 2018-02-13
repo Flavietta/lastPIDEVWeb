@@ -1,0 +1,10 @@
+gestion_produits_homepage:
+    path:     /
+    defaults: { _controller: GestionProduitsBundle:Default:index }
+afficherProduitUser:
+    path:     /AfficherP
+    defaults: { _controller: GestionProduitsBundle:G_Produit:AfficherProduitUser }
+
+AjoutProduitUser:
+    path:     /AjoutP
+    defaults: { _controller: GestionProduitsBundle:G_Produit:ajoutProduitUser }

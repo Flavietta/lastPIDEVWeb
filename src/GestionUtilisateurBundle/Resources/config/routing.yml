@@ -1,0 +1,10 @@
+gestion_utilisateur_homepage:
+    path:     /
+    defaults: { _controller: GestionUtilisateurBundle:Default:index }
+super_user_userpr_affiche:
+    path:     /affichepr
+    defaults: { _controller: GestionUtilisateurBundle:G_SuperUser:Affiche1 }
+Visitor_affiche:
+    path:     /afficheVisitor
+    defaults: { _controller: GestionUtilisateurBundle:G_Visitor:AfficheVisitor}
+

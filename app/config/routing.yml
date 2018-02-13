@@ -1,0 +1,29 @@
+gestion_produits:
+    resource: "@GestionProduitsBundle/Resources/config/routing.yml"
+    prefix:   /
+
+gestion_recommandations:
+    resource: "@GestionRecommandationsBundle/Resources/config/routing.yml"
+    prefix:   /
+
+gestion_conseils:
+    resource: "@GestionConseilsBundle/Resources/config/routing.yml"
+    prefix:   /
+
+gestion_fomation:
+    resource: "@GestionFomationBundle/Resources/config/routing.yml"
+    prefix:   /
+
+gestion_soins:
+    resource: "@GestionSoinsBundle/Resources/config/routing.yml"
+    prefix:   /
+
+gestion_utilisateur:
+    resource: "@GestionUtilisateurBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"

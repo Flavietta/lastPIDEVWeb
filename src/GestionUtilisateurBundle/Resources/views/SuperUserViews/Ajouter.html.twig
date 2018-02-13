@@ -1,0 +1,366 @@
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>INSPINIA | Advanced Form Elements</title>
+
+    <link href="{{ asset('css/plugins/colorpicker/bootstrap-colorpicker.min.css') }}" rel="stylesheet">
+
+    <link href="{{ asset('css/plugins/cropper/cropper.min.css') }}" rel="stylesheet">
+
+    <link href="{{ asset('css/plugins/switchery/switchery.css') }}" rel="stylesheet">
+
+    <link href="{{ asset('css/plugins/jasny/jasny-bootstrap.min.css') }}" rel="stylesheet">
+
+    <link href="{{ asset('css/plugins/nouslider/jquery.nouislider.css') }}" rel="stylesheet">
+
+    <link href="{{ asset('css/plugins/datapicker/datepicker3.css') }}" rel="stylesheet">
+
+    <link href="{{ asset('css/plugins/ionRangeSlider/ion.rangeSlider.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css') }}" rel="stylesheet">
+
+</head>
+
+<body>
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-9">
+        <h2><strong>Consulter Utilisateur Privilige</strong></h2>
+        <ol class="breadcrumb">
+            <li >
+                Utilisateur Privilige
+            </li>
+            <li class="active">
+                <strong>Consulter Les Utilisateurs</strong>
+            </li>
+        </ol>
+    </div>
+</div>
+        <div class="wrapper wrapper-content animated fadeInRight">
+
+            <div class="row">
+                <form method="get" class="form-horizontal">
+
+                    <div class="col-lg-6">
+                        <div class="ibox float-e-margins">
+                            <div class="ibox-title">
+                                <h5>All form elements <small>With custom checbox and radion elements.</small></h5>
+                                <div class="ibox-tools">
+                                    <a class="collapse-link binded">
+                                        <i class="fa fa-chevron-up"></i>
+                                    </a>
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                        <i class="fa fa-wrench"></i>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-user">
+                                        <li><a href="#">Config option 1</a>
+                                        </li>
+                                        <li><a href="#">Config option 2</a>
+                                        </li>
+                                    </ul>
+                                    <a class="close-link binded">
+                                        <i class="fa fa-times"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ibox-content">
+                                <div class="form-group"><label class="col-sm-2 control-label">Nom</label>
+
+                                    <div class="col-sm-10"><input type="text" class="form-control" placeholder="Nom"></div>
+                                </div>
+
+
+                                <div class="hr-line-dashed"></div>
+                                <div class="form-group"><label class="col-sm-2 control-label">Password</label>
+
+                                    <div class="col-sm-10"><input type="password" placeholder="password" class="form-control" name="password"></div>
+                                </div>
+                                <div class="hr-line-dashed"></div>
+                                <div class="form-group"><label class="col-sm-2 control-label">Email</label>
+
+                                    <div class="col-sm-10"><div class="input-group m-b"><span class="input-group-addon">@</span> <input type="email" placeholder="Email" class="form-control"></div>
+                                    </div>
+                                </div>
+                                <div class="hr-line-dashed"></div>
+
+                                <div class="form-group" id="data_3">
+                                    <label class="col-sm-2 control-label">Decade view</label>
+                                    <div class=" col-sm-10">
+                                        <div class="input-group date">
+                                            <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input type="text" class="form-control" value="10/11/1980">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hr-line-dashed"></div>
+                                <div class="form-group" style="padding-left:4%">
+                                    <label class="col-sm-2 control-label">Basic example</label>
+                                    <div class="input-group col-sm-10">
+                                        <select data-placeholder="Choose a Country..." class="chosen-select form-control " style="width:97%;" tabindex="2">
+                                            <option value="">Select</option>
+                                            <option value="United States">United States</option>
+
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="hr-line-dashed"></div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 col-sm-2 control-label">Code Professionel</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control"  placeholder="">
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="ibox float-e-margins">
+                            <div class="ibox-title">
+                                <h5>All form elements <small>With custom checbox and radion elements.</small></h5>
+                                <div class="ibox-tools">
+                                    <a class="collapse-link binded">
+                                        <i class="fa fa-chevron-up"></i>
+                                    </a>
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                        <i class="fa fa-wrench"></i>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-user">
+                                        <li><a href="#">Config option 1</a>
+                                        </li>
+                                        <li><a href="#">Config option 2</a>
+                                        </li>
+                                    </ul>
+                                    <a class="close-link binded">
+                                        <i class="fa fa-times"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ibox-content">
+
+                                <div class="form-group"><label class="col-sm-2 control-label">Nom</label>
+
+                                    <div class="col-sm-10"><input type="text" class="form-control" placeholder="Nom"></div>
+                                </div>
+
+
+                                <div class="hr-line-dashed"></div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 col-sm-2 control-label">TEL</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" data-mask="99-999-999" placeholder="TEL">
+                                        <span class="help-block"></span>
+                                    </div>
+                                </div>
+                                <div class="hr-line-dashed"></div>
+
+                                <div class="form-group"><label class="col-sm-2 control-label">Adresse</label>
+
+                                    <div class="col-sm-10"><input type="text" placeholder="Adresse" class="form-control"></div>
+
+                                </div>
+                                <div class="hr-line-dashed"></div>
+
+                                <div class="form-group"><label class="col-sm-2 control-label">Adresse De Travail</label>
+
+                                    <div class="col-sm-10"><input type="text" placeholder="Adresse De Travail" class="form-control"></div>
+
+                                </div>
+                                <div class="hr-line-dashed"></div>
+                                <div class="form-group">
+                                    <div class="col-sm-4 col-sm-offset-8">
+                                        <button class="btn btn-primary" type="submit">Save changes</button>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="pull-right">
+                10GB of <strong>250GB</strong> Free.
+            </div>
+            <div>
+                <strong>Copyright</strong> Example Company &copy; 2014-2015
+            </div>
+        </div>
+<!-- Chosen -->
+<script src="{{ asset('js/plugins/chosen/chosen.jquery.js') }}"></script>
+
+<!-- JSKnob -->
+<script src="{{ asset('js/plugins/jsKnob/jquery.knob.js') }}"></script>
+
+<!-- Input Mask-->
+<script src="{{ asset('js/plugins/jasny/jasny-bootstrap.min.js') }}"></script>
+
+<!-- Data picker -->
+<script src="{{ asset('js/plugins/datapicker/bootstrap-datepicker.js') }}"></script>
+
+<!-- NouSlider -->
+<script src="{{ asset('js/plugins/nouslider/jquery.nouislider.min.js') }}"></script>
+
+<!-- Switchery -->
+<script src="{{ asset('js/plugins/switchery/switchery.js') }}"></script>
+
+<!-- iCheck -->
+<script src="{{ asset('js/plugins/iCheck/icheck.min.js') }}"></script>
+
+<!-- MENU -->
+<script src="{{ asset('js/plugins/metisMenu/jquery.metisMenu.js') }}"></script>
+
+<!-- Color picker -->
+<script src="{{ asset('js/plugins/colorpicker/bootstrap-colorpicker.min.js') }}"></script>
+
+<!-- Image cropper -->
+<script src="{{ asset('js/plugins/cropper/cropper.min.js') }}"></script>
+
+<script>
+    $(document).ready(function(){
+
+        var $image = $(".image-crop > img")
+        $($image).cropper({
+            aspectRatio: 1.618,
+            preview: ".img-preview",
+            done: function(data) {
+                // Output the result data for cropping image.
+            }
+        });
+
+        var $inputImage = $("#inputImage");
+        if (window.FileReader) {
+            $inputImage.change(function() {
+                var fileReader = new FileReader(),
+                    files = this.files,
+                    file;
+
+                if (!files.length) {
+                    return;
+                }
+
+                file = files[0];
+
+                if (/^image\/\w+$/.test(file.type)) {
+                    fileReader.readAsDataURL(file);
+                    fileReader.onload = function () {
+                        $inputImage.val("");
+                        $image.cropper("reset", true).cropper("replace", this.result);
+                    };
+                } else {
+                    showMessage("Please choose an image file.");
+                }
+            });
+        } else {
+            $inputImage.addClass("hide");
+        }
+
+        $("#download").click(function() {
+            window.open($image.cropper("getDataURL"));
+        });
+
+        $("#zoomIn").click(function() {
+            $image.cropper("zoom", 0.1);
+        });
+
+        $("#zoomOut").click(function() {
+            $image.cropper("zoom", -0.1);
+        });
+
+        $("#rotateLeft").click(function() {
+            $image.cropper("rotate", 45);
+        });
+
+        $("#rotateRight").click(function() {
+            $image.cropper("rotate", -45);
+        });
+
+        $("#setDrag").click(function() {
+            $image.cropper("setDragMode", "crop");
+        });
+
+        $('#data_1 .input-group.date').datepicker({
+            todayBtn: "linked",
+            keyboardNavigation: false,
+            forceParse: false,
+            calendarWeeks: true,
+            autoclose: true
+        });
+
+        $('#data_2 .input-group.date').datepicker({
+            startView: 1,
+            todayBtn: "linked",
+            keyboardNavigation: false,
+            forceParse: false,
+            autoclose: true
+        });
+
+        $('#data_3 .input-group.date').datepicker({
+            startView: 2,
+            todayBtn: "linked",
+            keyboardNavigation: false,
+            forceParse: false,
+            autoclose: true
+        });
+
+        $('#data_4 .input-group.date').datepicker({
+            minViewMode: 1,
+            keyboardNavigation: false,
+            forceParse: false,
+            autoclose: true,
+            todayHighlight: true
+        });
+
+        $('#data_5 .input-daterange').datepicker({
+            keyboardNavigation: false,
+            forceParse: false,
+            autoclose: true
+        });
+
+        var elem = document.querySelector('.js-switch');
+        var switchery = new Switchery(elem, { color: '#1AB394' });
+
+        var elem_2 = document.querySelector('.js-switch_2');
+        var switchery_2 = new Switchery(elem_2, { color: '#ED5565' });
+
+        var elem_3 = document.querySelector('.js-switch_3');
+        var switchery_3 = new Switchery(elem_3, { color: '#1AB394' });
+
+        $('.i-checks').iCheck({
+            checkboxClass: 'icheckbox_square-green',
+            radioClass: 'iradio_square-green',
+        });
+
+        $('.demo1').colorpicker();
+
+
+
+    });
+    var config = {
+        '.chosen-select'           : {},
+        '.chosen-select-deselect'  : {allow_single_deselect:true},
+        '.chosen-select-no-single' : {disable_search_threshold:10},
+        '.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
+        '.chosen-select-width'     : {width:"95%"}
+    }
+    for (var selector in config) {
+        $(selector).chosen(config[selector]);
+    }
+
+
+    $(".dial").knob();
+
+
+
+
+</script>
+
+</body>
+
+</html>

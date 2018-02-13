@@ -1,0 +1,6 @@
+gestion_soins_homepage:
+    path:     /
+    defaults: { _controller: GestionSoinsBundle:Default:index }
+super_user_soins_affiche:
+     path:     /soins/ajout
+     defaults: { _controller: GestionSoinsBundle:G_Soins:Ajout }

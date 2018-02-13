@@ -1,0 +1,6 @@
+gestion_fomation_homepage:
+    path:     /
+    defaults: { _controller: GestionFomationBundle:Default:index }
+super_user_formation_affiche:
+     path:     /formation/ajout
+     defaults: { _controller: GestionFomationBundle:G_Formation:Ajout }
