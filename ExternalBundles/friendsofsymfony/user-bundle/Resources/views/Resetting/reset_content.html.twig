@@ -1,0 +1,35 @@
+{% trans_default_domain 'FOSUserBundle' %}
+
+<div id="snacks" class="se-pre-con"></div>
+<body class="gray-bg">
+<form action="{{ path('fos_user_resetting_send_email') }}" method="POST" class="fos_user_resetting_request">
+    <div class="middle-box text-center loginscreen  animated fadeInDown">
+        <div>
+            <div>
+
+                <br><br><br><br>
+                <img src="{{ asset('TemplateSimpleUser/images/design-agency/logo8.png') }}" style="width: 100%; height: 100%;" alt=""/>
+
+            </div>
+            <h3>Resetting</h3>
+
+            {{ form_start(form, { 'action': path('fos_user_resetting_reset', {'token': token}), 'attr': { 'class': 'fos_user_resetting_reset' } }) }}
+            {{ form_widget(form) }}
+            <div>
+                <input type="submit" value="{{ 'resetting.reset.submit'|trans }}" />
+            </div>
+            {{ form_end(form) }}
+            </div></div></div>
+
+</form>
+<script>
+    $(document).ready(function () {
+        $('.i-checks').iCheck({
+            checkboxClass: 'icheckbox_square-green',
+            radioClass: 'iradio_square-green',
+        });
+    });
+</script>
+<link href="{{ asset('css/plugins/iCheck/custom.css') }}" rel="stylesheet">
+<script src="{{ asset('js/plugins/iCheck/icheck.min.js') }}"></script>
+</body>

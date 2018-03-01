@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<routes xmlns="http://symfony.com/schema/routing"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://symfony.com/schema/routing http://symfony.com/schema/routing/routing-1.0.xsd">
+
+    <route id="fos_user_profile_show" path="/" methods="GET">
+        <default key="_controller">FOSUserBundle:Profile:show</default>
+    </route>
+
+    <route id="fos_user_profile_accueil" path="admin/accueil" methods="GET">
+        <default key="_controller">AdminBundle:Default:Accueil</default>
+    </route>
+    <route id="fos_user_profile_affiche" path="admin/affiche" methods="GET">
+        <default key="_controller">GestionUtilisateurBundle:G_SuperUser:Affiche</default>
+    </route>
+    <route id="fos_user_profile_affiche_user" path="admin/afficheUser" methods="GET">
+        <default key="_controller">GestionUtilisateurBundle:G_SimpleUser:Affiche</default>
+    </route>
+    <route id="fos_user_profile_ajouter" path="admin/ajouter" methods="GET">
+        <default key="_controller">GestionUtilisateurBundle:G_SuperUser:Ajouter</default>
+    </route>
+
+    <route id="fos_user_profile_affiche_produit" path="admin/afficheProduit" methods="GET">
+        <default key="_controller">GestionProduitsBundle:G_Produit:Affiche</default>
+    </route>
+
+    <route id="fos_user_profile_affiche_recommandation" path="admin/afficheRecommandation" methods="GET">
+        <default key="_controller">GestionRecommandationsBundle:G_Recommandations:afficheRecoAdmin</default>
+    </route>
+
+    <route id="fos_user_profile_edit" path="admin/edit" methods="GET POST">
+        <default key="_controller">FOSUserBundle:Profile:edit</default>
+    </route>
+
+    <route id="fos_user_profile_aedit" path="user/affiche" methods="GET POST">
+        <default key="_controller">GestionUtilisateurBundle:G_SimpleUser:index1</default>
+    </route>
+
+    <route id="fos_user_profile_Panier_ajout" path="user/ajoutPanier/{usernameP}/{idp}/{idUser}" methods="GET POST">
+        <default key="_controller">FOSUserBundle:Profile:ajoutPanier</default>
+    </route>
+
+
+    <route id="fos_user_profile_ajoutmap" path="user/ajoutmap" methods="GET POST">
+        <default key="_controller">FOSUserBundle:Profile:ajoutmap</default>
+    </route>
+</routes>
