@@ -5,12 +5,12 @@ namespace AppBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Categorie
+ * Recommendation
  *
- * @ORM\Table(name="categorie")
+ * @ORM\Table(name="recommendation")
  * @ORM\Entity
  */
-class Categorie
+class Recommendation
 {
     /**
      * @var int
@@ -24,9 +24,16 @@ class Categorie
     /**
      * @var string
      *
-     * @ORM\Column(name="libelle", type="string", length=255, nullable=false)
+     * @ORM\Column(name="description", type="string", length=5000, nullable=false)
      */
-    private $libelle;
+    private $description;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="file", type="string", length=255, nullable=false)
+     */
+    private $file;
 
 
 }
